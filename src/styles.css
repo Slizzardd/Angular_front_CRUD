@@ -1,2 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.footer {
+  background-color: blue;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 20px; /* Добавьте верхний отступ для отделения от формы */
+}
+
+.footer span {
+  font-size: 14px; /* Размер шрифта */
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Расстояние между кнопками */
+  margin-left: 10px; /* Отступ слева, если нужен */
+}
